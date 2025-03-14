@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name         = 'c1'
+  s.name         = 'VncDemonNFramework'
   s.version      = '1.0.29'
-  s.summary      = 'A short description of c1.'
+  s.summary      = 'A short description of VncDemonNFramework.'
   s.description  = 'A longer description of c1 with usage and features.'
   s.homepage     = 'https://github.com/johnnyleba/c1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'VncDemonNFramework.framework'
-  s.resources    = 'VncDemonNFramework.framework/vncwww/**/*'
+  s.resources    = ['VncDemonNFramework.framework/**/*']
   s.requires_arc = true
   s.user_target_xcconfig = {
     'GENERATE_INFOPLIST_FILE' => 'YES'
