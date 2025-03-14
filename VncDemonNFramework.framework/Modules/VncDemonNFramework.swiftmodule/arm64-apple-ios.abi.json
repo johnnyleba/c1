@@ -1,0 +1,1432 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "VncDemonNFramework",
+    "printedName": "VncDemonNFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VncDemonNFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VncDemonNFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "VncDemonNFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VNCViewController",
+        "printedName": "VNCViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "webView",
+            "printedName": "webView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(py)webView",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC7webViewSo05WKWebG0CSgvp",
+            "moduleName": "VncDemonNFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)webView",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC7webViewSo05WKWebG0CSgvg",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)setWebView:",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC7webViewSo05WKWebG0CSgvs",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VncDemonNFramework17VNCViewControllerC7webViewSo05WKWebG0CSgvM",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC7webViewSo05WKWebG0CSgvM",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "device",
+            "printedName": "device",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SkDevice",
+                "printedName": "VncDemonNFramework.SkDevice",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(py)device",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC6deviceAA8SkDeviceCvp",
+            "moduleName": "VncDemonNFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SkDevice",
+                    "printedName": "VncDemonNFramework.SkDevice",
+                    "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)device",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC6deviceAA8SkDeviceCvg",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SkDevice",
+                    "printedName": "VncDemonNFramework.SkDevice",
+                    "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)setDevice:",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC6deviceAA8SkDeviceCvs",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VncDemonNFramework17VNCViewControllerC6deviceAA8SkDeviceCvM",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC6deviceAA8SkDeviceCvM",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tryTimes",
+            "printedName": "tryTimes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(py)tryTimes",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8tryTimesSivp",
+            "moduleName": "VncDemonNFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)tryTimes",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8tryTimesSivg",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)setTryTimes:",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8tryTimesSivs",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VncDemonNFramework17VNCViewControllerC8tryTimesSivM",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8tryTimesSivM",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(py)clientId",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8clientIdSivp",
+            "moduleName": "VncDemonNFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)clientId",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8clientIdSivg",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)setClientId:",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8clientIdSivs",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VncDemonNFramework17VNCViewControllerC8clientIdSivM",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8clientIdSivM",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "CONFIG_TYPE_KEY",
+            "printedName": "CONFIG_TYPE_KEY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(py)CONFIG_TYPE_KEY",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC15CONFIG_TYPE_KEYSSvp",
+            "moduleName": "VncDemonNFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)CONFIG_TYPE_KEY",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC15CONFIG_TYPE_KEYSSvg",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)setCONFIG_TYPE_KEY:",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC15CONFIG_TYPE_KEYSSvs",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VncDemonNFramework17VNCViewControllerC15CONFIG_TYPE_KEYSSvM",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC15CONFIG_TYPE_KEYSSvM",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadView",
+            "printedName": "loadView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)loadView",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8loadViewyyF",
+            "moduleName": "VncDemonNFramework",
+            "overriding": true,
+            "objc_name": "loadView",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "VncDemonNFramework",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s18VncDemonNFramework17VNCViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "VncDemonNFramework",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)viewDidLoad",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC11viewDidLoadyyF",
+            "moduleName": "VncDemonNFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveValue",
+            "printedName": "saveValue(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(cm)saveValue:forKey:",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC9saveValue_6forKeyySi_SStFZ",
+            "moduleName": "VncDemonNFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getValue",
+            "printedName": "getValue(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18VncDemonNFramework17VNCViewControllerC8getValue6forKeySiSgSS_tFZ",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC8getValue6forKeySiSgSS_tFZ",
+            "moduleName": "VncDemonNFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)viewWillDisappear:",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "VncDemonNFramework",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VNCViewController",
+                "printedName": "VncDemonNFramework.VNCViewController",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "VncDemonNFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VncDemonNFramework.VNCViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VNCViewController",
+                    "printedName": "VncDemonNFramework.VNCViewController",
+                    "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController(im)initWithCoder:",
+            "mangledName": "$s18VncDemonNFramework17VNCViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "VncDemonNFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VncDemonNFramework@objc(cs)VNCViewController",
+        "mangledName": "$s18VncDemonNFramework17VNCViewControllerC",
+        "moduleName": "VncDemonNFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VncDemonNFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SkDevice",
+        "printedName": "SkDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sn",
+            "printedName": "sn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice(py)sn",
+            "mangledName": "$s18VncDemonNFramework8SkDeviceC2snSSvp",
+            "moduleName": "VncDemonNFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice(im)sn",
+                "mangledName": "$s18VncDemonNFramework8SkDeviceC2snSSvg",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice(im)setSn:",
+                "mangledName": "$s18VncDemonNFramework8SkDeviceC2snSSvs",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18VncDemonNFramework8SkDeviceC2snSSvM",
+                "mangledName": "$s18VncDemonNFramework8SkDeviceC2snSSvM",
+                "moduleName": "VncDemonNFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SkDevice",
+                "printedName": "VncDemonNFramework.SkDevice",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice(im)init",
+            "mangledName": "$s18VncDemonNFramework8SkDeviceCACycfc",
+            "moduleName": "VncDemonNFramework",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sn:name:warnCount:group:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SkDevice",
+                "printedName": "VncDemonNFramework.SkDevice",
+                "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice(im)initWithSn:name:warnCount:group:",
+            "mangledName": "$s18VncDemonNFramework8SkDeviceC2sn4name9warnCount5groupACSS_SSSiSStcfc",
+            "moduleName": "VncDemonNFramework",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VncDemonNFramework@objc(cs)SkDevice",
+        "mangledName": "$s18VncDemonNFramework8SkDeviceC",
+        "moduleName": "VncDemonNFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VncDemonNFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VncDemonNFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/VNCViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/VNCViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/VNCViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 10,
+      "value": "\"confType\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 282,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 346,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "BooleanLiteral",
+      "offset": 364,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 391,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 533,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 557,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 583,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 607,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 650,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 690,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/SkDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 840,
+      "length": 14,
+      "value": "\"默认分组\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/samkoon_macmini\/Desktop\/vnclibrary\/SamkoonVnc_VncDemoNDemo_VncDemonNFramework\/VncDemonNFramework\/VncDemonNFramework\/Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
