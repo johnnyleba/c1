@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = 'VncDemonNFramework'
-  s.version      = '1.0.35'
+  s.version      = '1.0.32'
   s.summary      = 'A short description of VncDemonNFramework.'
   s.description  = 'A longer description of c1 with usage and features.'
   s.homepage     = 'https://github.com/johnnyleba/c1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Your Name' => 'your@email.com' }
-  s.source       = {"http": "https://xdata.samkoonyun.com/ota/admin/3.0/git/VncDemonNFramework.zip", "type": "zip"  }
+  s.source       = { :git => 'git@github.com:johnnyleba/c1.git', :tag => 'main', :branch => "master"  }
   s.platform     = :ios, '10.0'
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'VncDemonNFramework.framework'
